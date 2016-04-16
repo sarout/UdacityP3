@@ -7,33 +7,63 @@
         <meta name="author" content="Anouar Sarout">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <script   src="https://code.jquery.com/jquery-1.12.2.min.js"   integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="   crossorigin="anonymous"></script>
+        <script src="js/script.js" charset="utf-8"></script>
         <title>Anouar Sarout Portfolio</title>
     </head>
     <body>
-            <header>
-                <div class="headcontent">
-                    <div class="logo">
-                        <img src="images/wolf-logo.png" class="imglogo" alt="logo">
-                    </div>
-                    <div class="topname">
-                        <h1>Anouar Sarout</h1>
-                        <h3>Front End Web Developer</h3>
-                    </div>
-                </div> <!-- headcontent -->
-            </header>
+        <header>
+            <div class="headcontent">
+                <div class="logo">
+                    <img src="images/wolf-logo.png" class="imglogo" alt="logo">
+                </div>
+                <div class="topname">
+                    <h1>Anouar Sarout</h1>
+                    <h3>Front End Web Developer</h3>
+                </div>
+            </div> <!-- headcontent -->
+        </header>
+        <nav class="nav-humb">
+            <ul class="menu page-scroll">
+                <li><a href="#"><span class="fa fa-home"></span></a><a href="#"><span class="nav-link">Home</span></a></li>
+                <li><a href="#"><span class="fa fa-user"></span></a><a href="#about"><span class="nav-link">About</span></a></li>
+                <li><a href="#"><span class="fa fa-briefcase"></span></a><a href="#showcase"><span class="nav-link">Showcase</span></a></li>
+                <li><a href="#"><span class="fa fa-envelope"></span></a><a href="#contact"><span class="nav-link">Contact</span></a></li>
+            </ul>
+        </nav>
         <div class="container">
             <div class="hero">
                 <img src="images/me-intro.jpg" alt="Anouar Sarout photo">
-                    <article class="welcome">
-                        <h2>Welcome on board</h2>
-                        <p>You have landed on Anouar's Portfolio. You don't need to put the belt, because this page is fully responsive!
-                            I am a Computer programmer, and a very passionate Web developer.
-                            <span>I have a significant skills in most Web Development programming laguages such as HTML5, CSS3, JavaScript, jQuery and
-                                a number of web frameworks...
-                            </span>
-                        </p>
-                    </article>
+                <article class="welcome">
+                    <h2>Welcome on board</h2>
+                    <p>You have landed on Anouar's Portfolio. You don't need to put the belt, because this page is fully responsive!
+                        I am a Computer programmer, and a very passionate Web developer.
+                        <span>I have a significant skills in most Web Development programming laguages such as HTML5, CSS3, JavaScript, jQuery and
+                            a number of web frameworks...
+                        </span>
+                    </p>
+                </article>
             </div>
+
+            <div class="middle">
+                <div class="recent-articles">
+                    <h3 class="article-title"><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h3>
+                    <p>Provident optio fuga rem repellendus assumenda, aliquam! Rem sunt quaerat delectus praesentium doloribus numquam.</p>
+                    <h3 class="article-title"><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h3>
+                    <p>Provident optio fuga rem repellendus assumenda, aliquam! Rem sunt quaerat delectus praesentium doloribus numquam.</p>
+                    <h3 class="article-title"><a href="#">Lorem ipsum dolor sit amet, consectetur.</a></h3>
+                    <p>Provident optio fuga rem repellendus assumenda, aliquam! Rem sunt quaerat delectus praesentium doloribus numquam.</p>
+                </div>
+                <div class="twitts-ads">
+                    <div class="ad">
+                        <img src="http://placehold.it/300x300" alt="image placeholder">
+                    </div>
+                    <div class="twitts">
+                        <a class="twitter-timeline" href="https://twitter.com/hashtag/webdevelopment" data-widget-id="715588483646099456">#webdevelopment Tweets</a>
+                    </div>
+                </div>
+            </div>
+
             <h2>Showcase: some Web dev projects</h2>
             <div class="showcase">
                 <div class="work" id="box1">
@@ -60,15 +90,16 @@
                     <p>Highly motivated, Multicultural, Excellent communicatios skills, Accomplish team group works and personal assigned tasks efficently</p>
                 </div>
             </div>
+        </div> <!-- container -->
             <footer>
                 <div class="contact">
                     <p>Let's talk today!</p>
                     <div class="social">
                         <ul>
-                            <li><a href="http://facebook.com/" target="_blank"><span class="fa fa-facebook-square"></span></a></li>
-                            <li><a href="http://linkedin.com/anouarsarout" target="_blank"><span class="fa fa-linkedin-square"></span></a></li>
                             <li><a href="http://twitter.com/anouarsrt" target="_blank"><span class="fa fa-twitter-square"></span></a></li>
                             <li><a href="http://plus.google.com/u/0/+AnouarSarout" target="_blank"><span class="fa fa-google-plus-square"></span> </a></li>
+                            <li><a href="http://facebook.com/" target="_blank"><span class="fa fa-facebook-square"></span></a></li>
+                            <li><a href="http://linkedin.com/anouarsarout" target="_blank"><span class="fa fa-linkedin-square"></span></a></li>
                             <li><a href="http://github.com/sarout" target="_blank"><span class="fa fa-git-square"></span> </a></li>
 
                         </ul>
@@ -78,6 +109,5 @@
                     <p>&copy; 2016 - Designed & Develped with &hearts; by Anouar Sarout</p>
                 </div>
             </footer>
-        </div>
     </body>
 </html>
